@@ -35,7 +35,7 @@ git init
 
 
 ### git checkout
-Switches the branch (or commit) that you're on.
+Switches the branch (or commit) that you're on.  Make sure your `git status` is clean first.
 * branch-name = at first `master` later we'll have others
 ```sh
 git checkout [branch-name]
@@ -65,7 +65,7 @@ git branch -r # show remote branches
 Creates a new branch.
 * branch-name = a name for the new branch
 ```sh
-git branch -b [branch-name]
+git branch [branch-name]
 git branch my_new_feature
 ```
 Usually followed by a `git checkout [branch-name]`.  See also `git checkout -b`.
